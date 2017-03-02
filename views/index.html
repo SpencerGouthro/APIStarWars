@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>API title</title>
+</head>
+<body>
+	<p>Submit a gif or picture and give it a title, name the character it features, and any emotion that is shown.</p>
+	<form method="post" enctype="multipart/form-data" action="/reactions">
+		<input type="text" name="title" placeholder="Title"><br><br>
+		<input type="text" name="character" placeholder="Character"><br><br>
+		<input type="text" name="emotion" placeholder="Emotion"><br><br>
+		<input type="file" name="upl"><br><br>
+		<input type="submit">
+	</form>
+</body>
+</html>
